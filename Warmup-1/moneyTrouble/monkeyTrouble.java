@@ -5,6 +5,11 @@ public class monkeyTrouble {
 	public static void main(String[] args) {
     	System.out.println("Hello, World");	
 
+    	boolean aSmile = false;
+    	boolean bSmile = false;
+
+    	System.out.println((aSmile && bSmile)||(!aSmile && !bSmile));
+
 	}
 
 
