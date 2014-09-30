@@ -1,8 +1,5 @@
-public class helloName {
-    public static void main(String[] args) {
-    	String name = "Bob";
+public String helloName(String name) {
+    return "Hello " +name + "!";
 
-    	System.out.println("Hello " +name+"!");    
-       
-    }
+
 }
