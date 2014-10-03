@@ -3,11 +3,6 @@
 //makeAbba("Yo", "Alice") → "YoAliceAliceYo"
 //makeAbba("What", "Up") → "WhatUpUpWhat"
 
-public class makeAbba {
-    public static void main(String[] args) {
-        String a = "Hi";
-        String b = "Bye";
-        System.out.println(a + b + b + a);
-        
-    }
+public String makeAbba(String a, String b) {
+    return a + b + b +a;
 }
