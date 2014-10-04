@@ -4,12 +4,6 @@ makeTags("i", "Yay") → "<i>Yay</i>"
 makeTags("i", "Hello") → "<i>Hello</i>"
 makeTags("cite", "Yay") → "<cite>Yay</cite>"
 */
-public class makeTags {
-    public static void main(String[] args) {
-        String input = "Yay";
-        String tag = "i";
-
-        System.out.println(tag);
-        
-    }
+public String makeTags(String tag, String word) {
+    return ("<"+tag+">"+word+"</"+tag+">");  
 }
