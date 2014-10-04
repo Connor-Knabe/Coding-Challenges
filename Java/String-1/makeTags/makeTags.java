@@ -6,7 +6,10 @@ makeTags("cite", "Yay") → "<cite>Yay</cite>"
 */
 public class makeTags {
     public static void main(String[] args) {
-        String  input = "Yay";
+        String input = "Yay";
+        String tag = "i";
+
+        System.out.println(tag);
         
     }
 }
