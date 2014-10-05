@@ -4,11 +4,9 @@ extraEnd("Hello") → "lololo"
 extraEnd("ab") → "ababab"
 extraEnd("Hi") → "HiHiHi"
 */
-public class extraEnd {
-    public static void main(String[] args) {
-    	String str = "Hello";
-    	System.out.println(str.substring(str.length()-2,str.length()));
-    	//System.out.println(str.length()-3,str.length()-1);    
-        
-    }
+public String extraEnd(String str) {
+    String newStr = str.substring(str.length()-2,str.length());
+    
+    return (newStr+newStr+newStr);
+
 }
