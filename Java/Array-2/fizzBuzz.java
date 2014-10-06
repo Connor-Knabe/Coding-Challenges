@@ -11,7 +11,9 @@ public String[] fizzBuzz(int start, int end) {
 
 
         for (int i = start; i < end; i++){
-        	if (i % 3 == 0){
+        	if (i % 3 == 0 && i % 5 == 0)
+        		arr.add("FizzBuzz");
+        	else if (i % 3 == 0){
         		arr.add("Fizz");
         	} else if(i % 5 == 0){
         		arr.add("Buzz");
@@ -20,5 +22,5 @@ public String[] fizzBuzz(int start, int end) {
         	}
         }
         
-        return arr.toArray(new String[arr.size()]);;
+        return arr.toArray(new String[arr.size()]);
 }
