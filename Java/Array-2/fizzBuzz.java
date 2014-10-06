@@ -6,23 +6,19 @@ fizzBuzz(1, 11) → {"1", "2", "Fizz", "4", "Buzz", "Fizz", "7", "8", "Fizz", "B
 
 
 */
+public String[] fizzBuzz(int start, int end) {
+  	List<String> arr = new ArrayList<String>();
 
-public class fizzBuzz {
-    public static void main(String[] args) {
-        int start 1;
-        int end 5;
-    	String[] arr;
 
         for (int i = start; i < end; i++){
         	if (i % 3 == 0){
-        		arr.push("Fizz");
+        		arr.add("Fizz");
         	} else if(i % 5 == 0){
-        		arr.push("Buzz");
+        		arr.add("Buzz");
         	} else {
-        	    arr.push(String.valueOf(i));	
+        	    arr.add(String.valueOf(i));	
         	}
-        
         }
         
-    }
+        return arr.toArray(new String[arr.size()]);;
 }
