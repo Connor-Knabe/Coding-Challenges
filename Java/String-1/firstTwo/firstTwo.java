@@ -7,7 +7,14 @@ firstTwo("ab") → "ab"
 */
 public class firstTwo {
     public static void main(String[] args) {
-        
+    String string = "hello";
+
+    if (string.length()>1){
+    	System.out.println(string.substring(0,2));
+
+    } else {
+    	System.out.println(string);
+    }
         
     }
 }
