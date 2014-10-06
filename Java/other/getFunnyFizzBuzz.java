@@ -7,9 +7,22 @@ getFunnyFizzBuzz(60, false) → "FizzyBuzzy"
 getFunnyFizzBuzz(3, false) → "FizzyBuzzy"
 */
 
-public class getFunnyFizzBuzz {
-    public static void main(String[] args) {
-        
-        
+public String getFunnyFizzBuzz( int num, boolean flag)   {
+
+    if(flag){
+    
+        if ((num % 3 == 0) & (num % 5 == 0)) {
+            return "FizzBuzz";
+        } else if(num % 3 == 0) {
+            return "Fizz";
+        } else if (num % 5 == 0) {
+            return "Buzz";
+        } else {
+            return "Cool";
+        }
+    } else {
+        return "FizzyBuzzy";
     }
+
+  
 }
