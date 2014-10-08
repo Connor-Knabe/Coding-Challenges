@@ -6,15 +6,11 @@ comboString("Hello", "hi") → "hiHellohi"
 comboString("hi", "Hello") → "hiHellohi"
 comboString("aaa", "b") → "baaab"
 */
-public class comboString {
-    public static void main(String[] args) {
-        String a = "hi";
-        String b = "hello";
+public String comboString(String a, String b) {
+
         if (a.length() > b.length()){
-        	System.out.println(b + a + b);
+             return (b + a + b);
         } else {
-        	System.out.println(a + b + a);
+             return (a + b + a);
         }
-        
-    }
 }
