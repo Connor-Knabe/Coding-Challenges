@@ -8,7 +8,7 @@ comboString("aaa", "b") → "baaab"
 */
 public class comboString {
     public static void main(String[] args) {
-        String a = "Hello";
+        String a = "";
         String b = "hi";
 
         System.out.println(b + a + b);
