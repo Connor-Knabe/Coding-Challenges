@@ -8,10 +8,13 @@ comboString("aaa", "b") → "baaab"
 */
 public class comboString {
     public static void main(String[] args) {
-        String a = "";
-        String b = "hi";
-
-        System.out.println(b + a + b);
+        String a = "hi";
+        String b = "hello";
+        if (a.length() > b.length()){
+        	System.out.println(b + a + b);
+        } else {
+        	System.out.println(a + b + a);
+        }
         
     }
 }
