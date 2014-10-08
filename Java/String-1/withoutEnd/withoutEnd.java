@@ -9,7 +9,7 @@ public class withoutEnd {
     public static void main(String[] args) {
         String str = "hello";
 
-        str = str.substring(1,str.length());
+        str = str.substring(str.length());
         System.out.println(str);
 
 
