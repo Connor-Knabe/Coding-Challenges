@@ -10,8 +10,4 @@ left2("Hi") → "Hi"
 */
 
 public String left2(String str) {
-          String str2 = "";
-        str2 = str.substring(0,2);
-        str = str.substring(2)  ;
-        return (str + str2);
-}
+  return str.substring(2) + str.substring(0, 2);
