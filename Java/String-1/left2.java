@@ -14,7 +14,7 @@ public class left2 {
         String str = "Hello";
         String str2 = "";
         str2 = str.substring(2,3);
-        str = str2 + str.substring(0,1);
+        str = str.substring(2) ;
         System.out.println(str);
         
     }
