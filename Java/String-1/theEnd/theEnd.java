@@ -9,11 +9,12 @@ theEnd("oh", true) → "o"
 public class theEnd {
     public static void main(String[] args) {
         String str = "Hello";
-        Boolean end = true;
+        Boolean front = true;
 
-        if (end){
-        	System.out.println(str.length()-1);
-
+        if (front){
+ 		    System.out.println(str.substring(0,1));
+        } else {
+        	System.out.println(str.substring(str.length()-1));
         }
         
     }
