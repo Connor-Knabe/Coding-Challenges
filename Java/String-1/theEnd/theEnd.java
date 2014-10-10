@@ -8,7 +8,13 @@ theEnd("oh", true) → "o"
 
 public class theEnd {
     public static void main(String[] args) {
-        
+        String str = "Hello";
+        Boolean end = true;
+
+        if (end){
+        	System.out.println(str.length()-1);
+
+        }
         
     }
 }
