@@ -6,16 +6,12 @@ theEnd("Hello", false) → "o"
 theEnd("oh", true) → "o"
 */
 
-public class theEnd {
-    public static void main(String[] args) {
-        String str = "Hello";
-        Boolean front = true;
+public String theEnd(String str, boolean front) {
 
-        if (front){
- 		    System.out.println(str.substring(0,1));
-        } else {
-        	System.out.println(str.substring(str.length()-1));
-        }
-        
+    if (front){
+        return(str.substring(0,1));
+    } else {
+        return (str.substring(str.length()-1));
     }
+  
 }
