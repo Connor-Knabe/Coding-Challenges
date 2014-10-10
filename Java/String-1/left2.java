@@ -9,10 +9,13 @@ left2("Hi") → "Hi"
 
 */
 
-
 public class left2 {
     public static void main(String[] args) {
-        
+        String str = "Hello";
+        String str2 = "";
+        str2 = str.substring(2,3);
+        str = str2 + str.substring(0,1);
+        System.out.println(str);
         
     }
 }
