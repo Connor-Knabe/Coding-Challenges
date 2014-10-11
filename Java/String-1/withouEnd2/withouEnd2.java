@@ -8,13 +8,12 @@ withouEnd2("ab") → ""
 */
 
 public String withouEnd2(String str) {
+  if (str.length() <= 2) {
+    return "";
+  }
   
-        if (str.length()<2){
-            return ("");
-        } else if (str.length()==2) {
-            return("");
-    	} else {
-            return(str.substring(1,str.length()-1));	
-        }
-        
-}
+  return str.substring(1, str.length()-1);
+  
+  // Solution notes: First screen out the length <= 2 case -- the result
+  // must be "" then. Otherwise, just return substring(1, len-1)
+  // and no length checks are required.
