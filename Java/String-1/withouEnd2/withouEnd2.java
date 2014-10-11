@@ -13,8 +13,11 @@ public class withouEnd2 {
 
         if (str.length()==0){
         	System.out.println("");
+        } else if (str.length()==2) {
+        	System.out.println("");
 
-        } else {
+    	}
+        else {
         	System.out.println(str.substring(1,str.length()-1));	
         }
         
