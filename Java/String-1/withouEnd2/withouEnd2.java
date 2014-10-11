@@ -9,9 +9,13 @@ withouEnd2("ab") → ""
 
 public class withouEnd2 {
     public static void main(String[] args) {
-        String str = "Hello";
+        String str = "";
 
-        System.out.println(str.substring(0,str.length()-1));
+        if (str.length()==0){
+        	System.out.println("");
+
+        }
+        System.out.println(str.substring(1,str.length()-1));
         
     }
 }
