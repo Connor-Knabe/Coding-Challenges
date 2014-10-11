@@ -14,8 +14,10 @@ public class withouEnd2 {
         if (str.length()==0){
         	System.out.println("");
 
+        } else {
+        	System.out.println(str.substring(1,str.length()-1));	
         }
-        System.out.println(str.substring(1,str.length()-1));
+        
         
     }
 }
