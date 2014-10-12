@@ -13,9 +13,11 @@ public class countYZ {
         int count = 0;
 
         System.out.println(str.charAt(1));
-
+        char currentLetter;
         for (int i = 0; i<str.length(); i++){
-	        System.out.println(str.charAt(i));
+        	currentLetter = str.charAt(i);
+
+	        System.out.println(currentLetter);
 
 
         }
