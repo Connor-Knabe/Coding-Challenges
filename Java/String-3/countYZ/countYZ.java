@@ -16,9 +16,9 @@ public class countYZ {
         char currentLetter;
         for (int i = 0; i<str.length(); i++){
         	currentLetter = str.charAt(i);
-        	if (currentLetter == (' ')){
+        	if (currentLetter == (' ') && (str.charAt(i-1) == 'y' || str.charAt(i-1) =='z')){
 
-		        System.out.println("BINGO");
+		        System.out.println("BINGO!");
 
         	}
 	        System.out.println(currentLetter);
