@@ -10,8 +10,10 @@ countYZ("day fyyyz") → 2
 public class countYZ {
     public static void main(String[] args) {
         String str = "fez day";
-        int count = 0
-        ;
+        int count = 0;
+
+        System.out.println(str.charAt(1));
+
         /*for (int i = 0; i<str.length(); i++){
         	if ((str.charAt(i)).equals(" ")){
         		if ((str.charAt(i-1)).equals("y")||(str.charAt(i-1)).equals("z"))
