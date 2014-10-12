@@ -17,16 +17,17 @@ public class countYZ {
         for (int i = 0; i<str.length(); i++){
         	currentLetter = str.charAt(i);
         	if (currentLetter == (' ') && (str.charAt(i-1) == 'y' || str.charAt(i-1) =='z')){
-
-		        System.out.println("BINGO!");
-
+        		count++;
         	}
-	        System.out.println(currentLetter);
-
-
         }
+        char lastLetter = str.charAt(str.length()-1);
 
+
+        if (lastLetter == ('y')|| lastLetter == ('z')){
+        	count++;
+        }
         
+        System.out.println(count);
         
     }
 }
