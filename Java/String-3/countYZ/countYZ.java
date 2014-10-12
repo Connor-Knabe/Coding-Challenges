@@ -14,13 +14,13 @@ public class countYZ {
 
         System.out.println(str.charAt(1));
 
-        /*for (int i = 0; i<str.length(); i++){
-        	if ((str.charAt(i)).equals(" ")){
-        		if ((str.charAt(i-1)).equals("y")||(str.charAt(i-1)).equals("z"))
-        			count++;
-        	}*/
+        for (int i = 0; i<str.length(); i++){
+	        System.out.println(str.charAt(i));
+
 
         }
+
+        
         
     }
 }
