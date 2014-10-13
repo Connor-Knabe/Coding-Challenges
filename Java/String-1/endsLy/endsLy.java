@@ -7,15 +7,18 @@ endsLy("oddy") → false
 
 */
 
-public class endsLy {
-    public static void main(String[] args) {
-        String str = "oddly";
-        int len = str.length();
-        String lastTwo = str.substring(len-2);
-        if (lastTwo.equals("ly")){
+public boolean endsLy(String str) {
 
-        	System.out.println(lastTwo);
-        }
-        
+    int len = str.length();
+    if (len<2){
+        return false;
     }
+    String lastTwo = str.substring(len-2);
+    if (lastTwo.equals("ly")){
+        return true;
+    } else {
+         return false;
+    }
+    
+  
 }
