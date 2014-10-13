@@ -9,10 +9,9 @@ countYZ("day fyyyz") → 2
 */
 public class countYZ {
     public static void main(String[] args) {
-        String str = "fez day";
+        String str = "!!day--yaz!!";
         int count = 0;
 
-        System.out.println(str.charAt(1));
         char currentLetter;
         for (int i = 0; i<str.length(); i++){
         	currentLetter = str.charAt(i);
@@ -21,7 +20,7 @@ public class countYZ {
         	}
         }
         char lastLetter = str.charAt(str.length()-1);
-
+        
 
         if (lastLetter == ('y')|| lastLetter == ('z')){
         	count++;
