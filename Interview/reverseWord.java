@@ -1,13 +1,10 @@
 public class reverseWord {
 
 	public static String revWord(String revWord){
-		System.out.println("Rev word coming into method="+ revWord);
         String word1 = "";
-       
 		for (int i = revWord.length()-1; i >= 0; i--){
 			word1 += revWord.charAt(i);
 		}
-		System.out.println("Reversed word = "+word1);
 		return word1;
 	} 
 
@@ -27,7 +24,6 @@ public class reverseWord {
         		str += revWord(revStr.substring(lastWordIndex,i+1));
         	}
         }
-
         System.out.println("Final string is " + str);
         
     }
