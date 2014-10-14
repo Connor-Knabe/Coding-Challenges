@@ -13,9 +13,12 @@ public class countYZ {
         int count = 0;
 
         char currentLetter;
+        char nextLetter;
+
         for (int i = 0; i<str.length(); i++){
         	currentLetter = str.charAt(i);
-        	if (currentLetter == (' ') && (str.charAt(i-1) == 'y' || str.charAt(i-1) =='z')){
+            nextLetter = str.charAt(i+1);
+        	if (currentLetter == (' ') && (str.charAt(i-1) == 'y' || str.charAt(i-1) =='z') && Character.isLetter(nextLetter)){
         		count++;
         	}
         }
