@@ -24,7 +24,9 @@ public class reverseWord {
         		str += revWord(revStr.substring(lastWordIndex,i+1));
         	}
         }
-        System.out.println("Final string is " + str);
+    	System.out.println("Reversed string is: " + revStr);
+
+        System.out.println("Final string is: " + str);
         
     }
 }
