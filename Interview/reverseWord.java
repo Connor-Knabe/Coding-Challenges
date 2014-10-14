@@ -20,6 +20,8 @@ public class reverseWord {
         	curLetter = revStr.charAt(i);
         	if (curLetter == ' '){
         		str += revWord(revStr.substring(0,i));
+        		//Add space because space was detected between words
+        		str += " ";
         		lastWordIndex = i;
         	} else if (i==revStr.length()-1){
         		str += revWord(revStr.substring(lastWordIndex,i+1));
