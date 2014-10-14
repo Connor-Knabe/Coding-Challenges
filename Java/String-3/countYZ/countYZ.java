@@ -15,10 +15,10 @@ public class countYZ {
         char currentLetter;
         char nextLetter;
 
+        System.out.println(Character.isLetter('A'));
         for (int i = 0; i<str.length(); i++){
         	currentLetter = str.charAt(i);
-            nextLetter = str.charAt(i+1);
-        	if (currentLetter == (' ') && (str.charAt(i-1) == 'y' || str.charAt(i-1) =='z') && Character.isLetter(nextLetter)){
+        	if (currentLetter == (' ') && (str.charAt(i-1) == 'y' || str.charAt(i-1) =='z')){
         		count++;
         	}
         }
