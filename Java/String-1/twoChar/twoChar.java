@@ -6,16 +6,15 @@ twoChar("java", 2) → "va"
 twoChar("java", 3) → "ja"
 */
 
-public class twoChar {
-    public static void main(String[] args) {
-        String str = "java";
-        int index = 3; 
-        if (str.length()>index+1){
+public String twoChar(String str, int index) {
 
-        	System.out.println("String made");
-        } else {
-        	System.out.println(str.substring(0,2));
-        }
+	if(index < 0){
+		return(str.substring(0,2));
+	}
+	if (str.length()>index+1){
+		return(str.substring(index,index+2));
+	} else {
+		return(str.substring(0,2));
+	}
         
-    }
 }
