@@ -9,10 +9,12 @@ twoChar("java", 3) → "ja"
 public class twoChar {
     public static void main(String[] args) {
         String str = "java";
-        int index = 4; 
+        int index = 3; 
         if (str.length()>index+1){
 
-        	System.out.println("HII");
+        	System.out.println("String made");
+        } else {
+        	System.out.println(str.substring(0,2));
         }
         
     }
