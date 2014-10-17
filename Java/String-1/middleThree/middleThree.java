@@ -2,7 +2,9 @@ public class middleThree {
     public static void main(String[] args) {
         String str = "Candy";
         int len = str.length();
-        System.out.println(str.substring((len/2)-1,len/2+2));
+        int strIndex = (len/2)-1;
+
+        System.out.println(str.substring(strIndex,strIndex+3));
         
     }
 }
