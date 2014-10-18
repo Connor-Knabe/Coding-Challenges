@@ -10,7 +10,11 @@ hasBad("xxbadxx") → false
 */
 public class hasBad {
     public static void main(String[] args) {
-        
+        String str = "badxx";
+
+        if (str.length()<3){
+        	System.out.println("False");
+        }
         
     }
 }
