@@ -15,6 +15,11 @@ public class hasBad {
         if (str.length()<3){
         	System.out.println("False");
         }
+
+        System.out.println(str.substring(0,3));
+        if ((str.substring(0,3)).equals("bad")){
+        	System.out.print("True");
+        }
         
     }
 }
