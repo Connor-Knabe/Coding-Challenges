@@ -8,18 +8,16 @@ hasBad("xxbadxx") → false
 
 
 */
-public class hasBad {
-    public static void main(String[] args) {
-        String str = "badxx";
+public boolean hasBad(String str) {
+  
+    if (str.length()<3){
+        return false;
+    }
 
-        if (str.length()<3){
-        	System.out.println("False");
-        }
-
-        System.out.println(str.substring(0,3));
-        if ((str.substring(0,3)).equals("bad")){
-        	System.out.print("True");
-        }
-        
+    
+    if ((str.substring(0,3)).equals("bad") || (str.substring(1,4)).equals("bad") ){
+    	return true;
+    } else {
+        return false;
     }
 }
