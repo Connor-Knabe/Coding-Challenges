@@ -5,18 +5,14 @@ atFirst("hello") → "he"
 atFirst("hi") → "hi"
 atFirst("h") → "h@"
 */
-public class atFirst {
-    public static void main(String[] args) {
-        String str = "hel";
+public String atFirst(String str) {
 
-        if (str.length()<1){
-        	System.out.println("@");
-        } else if (str.length()<2){
-        	System.out.println(str + "@");
-        } else {
-        	System.out.println(str.substring(0,2)); 
-        }
-
-        
+    if (str.length()<1){
+        return("@@");
+    } else if (str.length()<2){
+         return(str + "@");
+    } else {
+         return(str.substring(0,2)); 
     }
+
 }
