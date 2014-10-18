@@ -7,12 +7,14 @@ atFirst("h") → "h@"
 */
 public class atFirst {
     public static void main(String[] args) {
-        String str = "hello";
+        String str = "hel";
 
         if (str.length()<1){
         	System.out.println("@");
         } else if (str.length()<2){
         	System.out.println(str + "@");
+        } else {
+        	System.out.println(str.substring(0,2)); 
         }
 
         
