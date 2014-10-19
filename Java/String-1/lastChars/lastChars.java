@@ -18,7 +18,7 @@ public class lastChars {
         if (b.length()<1){
         	b="@";
         }
-        
+        System.out.println(a.substring(0,1)+b.substring(b.length()-1));
         
     }
 }
