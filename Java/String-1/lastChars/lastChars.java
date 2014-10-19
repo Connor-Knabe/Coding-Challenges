@@ -9,6 +9,15 @@ lastChars("hi", "") → "h@"
 
 public class lastChars {
     public static void main(String[] args) {
+        String a = "last";
+        String b = "chars";
+
+        if (a.length()<1){
+        	a="@";
+        } 
+        if (b.length()<1){
+        	b="@";
+        }
         
         
     }
