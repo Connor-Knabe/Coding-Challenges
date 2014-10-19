@@ -6,20 +6,14 @@ conCat("dog", "cat") → "dogcat"
 conCat("abc", "") → "abc"
 */
 
-public class conCat {
-    public static void main(String[] args) {
-        String a = "abca";
-        String b = "cat";
+public String conCat(String a, String b) {
 
-        if (a.length()<1 || b.length()<1){
-        	System.out.println(a+b);
-
-        }
-        if (a.substring(a.length()-1).equals(b.substring(0,1))){
-        	System.out.println(a.substring(0,a.length()-1) + b);
-        } else {
-        	System.out.println(a+b);
-        }
-        
+	if(a.length()<1 || b.length()<1){
+    	return(a+b);
+    }
+	if (a.substring(a.length()-1).equals(b.substring(0,1))){
+		return(a.substring(0,a.length()-1) + b);
+    } else {
+    	return(a+b);
     }
 }
