@@ -9,14 +9,15 @@ lastTwo("ab") → "ba"
 public class lastTwo {
     public static void main(String[] args) {
         String str = "coding";
-        String lastTwo = str.substring(str.length()-2);
 
         if (str.length()>2){
+        	String lastTwo = str.substring(str.length()-2);
 
         	str = str.substring(0,str.length()-2);
+        	str += lastTwo.charAt(1);
 
         }
-        System.out.println(lastTwo);
+        System.out.println(str);
         
     }
 }
