@@ -8,7 +8,15 @@ seeColor("blueTimes") → "blue"
 
 public class seeColor {
     public static void main(String[] args) {
-        
+        String str = "redxx";
+
+        if (str.substring(0,3).equals("red")){
+        	System.out.println("Red");
+
+        } else if (str.substring(0,4).equals("blue")){
+        	System.out.println("Blue");
+
+        }
         
     }
 }
