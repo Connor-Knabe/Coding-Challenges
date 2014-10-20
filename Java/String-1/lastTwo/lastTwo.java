@@ -15,6 +15,7 @@ public class lastTwo {
 
         	str = str.substring(0,str.length()-2);
         	str += lastTwo.charAt(1);
+        	str += lastTwo.charAt(0);
 
         }
         System.out.println(str);
