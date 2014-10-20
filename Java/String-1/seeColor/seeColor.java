@@ -5,18 +5,18 @@ seeColor("redxx") → "red"
 seeColor("xxred") → ""
 seeColor("blueTimes") → "blue"
 */
-
-public class seeColor {
-    public static void main(String[] args) {
-        String str = "blue";
-
-        if (str.substring(0,3).equals("red")){
-        	System.out.println("Red");
-
-        } else if (str.substring(0,4).equals("blue")){
-        	System.out.println("Blue");
-
-        }
-        
+public String seeColor(String str) {
+    if (str.length()<3){
+    	return "";
+    }
+    if (str.substring(0,3).equals("red")){
+    	return("red");
+    } 
+    if (str.length()<4){
+        return "";
+    } else if (str.substring(0,4).equals("blue")){
+    	return("blue");
+    } else {
+        return("");
     }
 }
