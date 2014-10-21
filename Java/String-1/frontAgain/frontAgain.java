@@ -7,7 +7,11 @@ frontAgain("ed") → true
 */
 public class frontAgain {
     public static void main(String[] args) {
-        
+        String str = "edited";
+
+        if (str.substring(0,2).equals(str.substring(str.length()-2))){
+        	System.out.println("True");
+        }
         
     }
 }
