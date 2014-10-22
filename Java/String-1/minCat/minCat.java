@@ -16,8 +16,9 @@ public class minCat {
     		finalStr += b;
     		System.out.println("A longer" + finalStr);
     	} else {
-    		finalStr = b.substring(b.length()-a.length());
     		finalStr += a;
+    		finalStr += b.substring(b.length()-a.length());
+
     		System.out.println("B longer" + finalStr);
 
     	}
