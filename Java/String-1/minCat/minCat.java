@@ -8,17 +8,17 @@ minCat("java", "Hello") → "javaello"
 
 public class minCat {
     public static void main(String[] args) {
-    	String a = "java";
-    	String b = "hello";
+    	String a = "x";
+    	String b = "abc";
     	String finalStr = "";
     	if (a.length()>b.length()){
     		finalStr = a.substring(a.length()-b.length());
     		finalStr += b;
-    		System.out.println(finalStr);
+    		System.out.println("A longer" + finalStr);
     	} else {
     		finalStr = b.substring(b.length()-a.length());
     		finalStr += a;
-    		System.out.println(finalStr);
+    		System.out.println("B longer" + finalStr);
 
     	}
 
