@@ -7,14 +7,9 @@ minCat("java", "Hello") → "javaello"
 */
 
 public String minCat(String a, String b) {
-    String finalStr = "";
     if (a.length()>b.length()){
-        finalStr = a.substring(a.length()-b.length());
-        finalStr += b;
-        return(finalStr);
+        return(a.substring(a.length()-b.length()) + b);
     } else {
-        finalStr += a;
-        finalStr += b.substring(b.length()-a.length());
-        return(finalStr);
+        return(a + b.substring(b.length()-a.length()));
     }
 }
