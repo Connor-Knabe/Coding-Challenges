@@ -13,6 +13,7 @@ public class minCat {
     	String finalStr = "";
     	if (a.length()>b.length()){
     		finalStr = a.substring(a.length()-b.length());
+    		finalStr += b;
     		System.out.println(finalStr);
 
     	} else {
