@@ -8,6 +8,18 @@ minCat("java", "Hello") → "javaello"
 
 public class minCat {
     public static void main(String[] args) {
+    	String a = "Hello";
+    	String b = "Hi";
+    	String finalStr = "";
+    	if (a.length()>b.length()){
+    		finalStr = a.substring(a.length()-b.length());
+    		System.out.println(finalStr);
+
+    	} else {
+
+
+    	}
+
         
         
     }
