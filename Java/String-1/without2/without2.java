@@ -11,6 +11,9 @@ public class without2 {
 
         if (str.length()<3){
         	System.out.println(str);
+        } else {
+        	System.out.println(str.substring(str.length()-2));
+        	//if(str.substring(0,2).equals(str.substring(str.length-2)));
         }
         
     }
