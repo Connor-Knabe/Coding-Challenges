@@ -5,19 +5,13 @@ without2("HelloHe") → "lloHe"
 without2("HelloHi") → "HelloHi"
 without2("Hi") → ""
 */
-public class without2 {
-    public static void main(String[] args) {
-        String str = "HelloHe";
-
-        if (str.length()<3){
-        	System.out.println(str);
-        } else {
-        	System.out.println(str.substring(str.length()-2));
-        	if(str.substring(0,2).equals(str.substring(str.length()-2))){
-        		System.out.println("Yep");
-
-        	}
-        }
-        
+public String without2(String str) { 
+    if (str.length()<2){
+        return(str);
     }
+    if(str.substring(0,2).equals(str.substring(str.length()-2))){
+         return(str.substring(2));
+    }
+    return(str);
+  
 }
