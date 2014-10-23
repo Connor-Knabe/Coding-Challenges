@@ -7,7 +7,11 @@ without2("Hi") → ""
 */
 public class without2 {
     public static void main(String[] args) {
-        
+        String str = "Hi";
+
+        if (str.length()<3){
+        	System.out.println(str);
+        }
         
     }
 }
