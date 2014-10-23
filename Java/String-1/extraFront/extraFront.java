@@ -10,7 +10,11 @@ public class extraFront {
         String str = "Hello";
         if (str.length()<2){
         	str = str + str + str; 
+        } else {
+        	str = str.substring(0,2);
+        	str = str + str + str;
         }
+        System.out.println(str);
         
     }
 }
