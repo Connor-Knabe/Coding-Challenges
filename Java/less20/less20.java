@@ -11,8 +11,13 @@ public class less20 {
 	    int n = 38;
 
 	    if (n % 20 == 0){
-	    	System.out.println("= 0 ");
-	    }        
+	    	return false;
+	   	} else if (n % 20 > 17 && n % 20 < 20) {
+
+   			return true;
+	   	} else {
+	   		return false;
+	   	}
         
     }
 }
