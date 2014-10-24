@@ -6,10 +6,8 @@ less20(19) → true
 less20(20) → false
 
 */
-public class less20 {
-    public static void main(String[] args) {
-	    int n = 38;
-
+public boolean less20(int n) {
+  
 	    if (n % 20 == 0){
 	    	return false;
 	   	} else if (n % 20 > 17 && n % 20 < 20) {
@@ -18,6 +16,4 @@ public class less20 {
 	   	} else {
 	   		return false;
 	   	}
-        
-    }
 }
