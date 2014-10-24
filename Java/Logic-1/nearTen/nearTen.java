@@ -8,7 +8,11 @@ nearTen(19) → true
 
 public class nearTen {
     public static void main(String[] args) {
-        
+    	int num = 12;
+
+    	if (num % 10 < 3 && num % 10 > 0){
+    		System.out.println("Remainder 1-2");
+    	}   
         
     }
 }
