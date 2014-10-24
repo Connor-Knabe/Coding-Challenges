@@ -7,11 +7,11 @@ nearTen(19) → true
 */
 
 public boolean nearTen(int num) {
-  if (num % 10 < 3 && num % 10 >= 0){
-    		return true;
-    	} else if (num % 10 > 7 && num % 10 < 10) {
-    		return true;
-    	} else {
+	if (num % 10 < 3 && num % 10 >= 0){
+		return true;
+	} else if (num % 10 > 7 && num % 10 < 10) {
+		return true;
+	} else {
         return false;
-        }
+    }
 }
