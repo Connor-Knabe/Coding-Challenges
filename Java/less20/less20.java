@@ -8,7 +8,11 @@ less20(20) → false
 */
 public class less20 {
     public static void main(String[] args) {
-        
+	    int n = 38;
+
+	    if (n % 20 == 0){
+	    	System.out.println("= 0 ");
+	    }        
         
     }
 }
