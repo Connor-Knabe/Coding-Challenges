@@ -6,9 +6,12 @@ answerCell(false, false, true) → false
 answerCell(true, false, false) → false
 */
 
-public class answerCell {
-    public static void main(String[] args) {
-        
-        
+public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+
+    if (isAsleep || (isMorning && !isMom)){
+    	return false;
+    } else {
+    	return true;
     }
+  
 }
