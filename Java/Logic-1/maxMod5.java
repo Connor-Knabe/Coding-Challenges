@@ -5,17 +5,18 @@ maxMod5(2, 3) → 3
 maxMod5(6, 2) → 6
 maxMod5(3, 2) → 3
 */
-public class maxMod5 {
-    public static void main(String[] args) {
-        int a = 2;
-        int b = 3;
+public int maxMod5(int a, int b) {
 
-        if (a < b){
-            return b;
-        } else {
-        	return a;
-        }
+    if (a%5 == b%5){
         
+    }  
+    if (a==b){
+        return 0;
+    }
+    if (a < b){
+        return b;
+    } else {
+        return a;
     }
 }
 
