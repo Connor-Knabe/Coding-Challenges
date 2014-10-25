@@ -6,9 +6,8 @@ redTicket(2, 2, 1) → 0
 redTicket(0, 0, 0) → 5
 
 */
-public class redTicket {
-    public static void main(String[] args) {
-        
-        
+public int redTicket(int a, int b, int c) {
+    if (a==2 && b==2 && c==2){
+        return 10;
     }
 }
