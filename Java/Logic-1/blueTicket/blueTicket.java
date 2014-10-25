@@ -7,9 +7,8 @@ blueTicket(6, 1, 4) → 10
 
 
 */
-public class blueTicket {
-    public static void main(String[] args) {
-        
-        
+public int blueTicket(int a, int b, int c) {
+    if (a+b || b+c || a+c){
+        return 10;
     }
 }
