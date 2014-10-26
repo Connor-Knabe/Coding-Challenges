@@ -5,9 +5,11 @@ withoutDoubles(2, 3, true) → 5
 withoutDoubles(3, 3, true) → 7
 withoutDoubles(3, 3, false) → 6
 */
-public class withoutDoubles {
-    public static void main(String[] args) {
-        
-        
+public int withoutDoubles(int die1, int die2, boolean noDoubles) {
+
+    if (noDoubles && (die1 == die2)){
+        return (die1+die2+1);
+    } else {
+        return die1+die2;
     }
 }
