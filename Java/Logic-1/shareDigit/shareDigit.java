@@ -7,7 +7,10 @@ shareDigit(12, 44) → false
 */
 public boolean shareDigit(int a, int b) {
 
-    if ((a/10 == b%10) || (b/10 == a%10) ){
+   
+    if ((a/10 == b%10) || (b/10 == a%10)){
+        return true;
+    } else if (a%10==0 && b%10==0) {
         return true;
     } else {
         return false;
