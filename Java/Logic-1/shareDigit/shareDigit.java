@@ -4,11 +4,13 @@ Given two ints, each in the range 10..99, return true if there is a digit that a
 shareDigit(12, 23) → true
 shareDigit(12, 43) → false
 shareDigit(12, 44) → false
-
 */
-public class shareDigit {
-    public static void main(String[] args) {
-        
-        
+public boolean shareDigit(int a, int b) {
+
+    if ((a/10 == b%10) || (b/10 == a%10) ){
+        return true;
+    } else {
+        return false;
     }
+
 }
