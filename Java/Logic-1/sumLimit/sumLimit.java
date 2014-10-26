@@ -6,13 +6,11 @@ sumLimit(8, 3) → 8
 sumLimit(8, 1) → 9
 
 */
-public class sumLimit {
-    public static void main(String[] args) {
-    	int a = 2;
-    	int b = 11;
-        String str;
-        str = String.valueOf(a+b);
-        System.out.println(String.valueOf(a+b).length());
-        
+public int sumLimit(int a, int b) {
+    if (String.valueOf(a+b).length() > String.valueOf(a).length()){
+        return a;
+    } else {
+    
+        return a+b;
     }
 }
