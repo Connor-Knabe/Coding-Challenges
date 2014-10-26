@@ -9,9 +9,10 @@ sumLimit(8, 1) → 9
 public class sumLimit {
     public static void main(String[] args) {
     	int a = 2;
-    	int b = 3;
-        String str = str.valueOf(a+b);
-        System.out.println(str.length());
+    	int b = 11;
+        String str;
+        str = String.valueOf(a+b);
+        System.out.println(String.valueOf(a+b).length());
         
     }
 }
