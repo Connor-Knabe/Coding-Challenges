@@ -7,9 +7,12 @@ fizzString("fib") → "FizzBuzz"
 */
 public class fizzString {
     public static void main(String[] args) {
-        String str = "fizz";
+        String str = "fizb";
 
-       System.out.println(str.substring(str.length()-1));
+        if (str.substring(str.length()-1).equals("b")){
+        	System.out.println("B");
+        }
+        System.out.println(str.substring(str.length()-1));
         
     }
 }
