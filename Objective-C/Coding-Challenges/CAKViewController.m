@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog([@"Bub" substringFromIndex:[@"Bub" length]-1]);
 
     
 }
@@ -35,9 +34,8 @@
     BOOL f = [fizzStr substringToIndex:1];
     BOOL b = [[fizzStr substringFromIndex:[fizzStr length]-1] isEqualToString:@"b"];
     
-    
-    if (f) return @"Fizz";
     if (b) return @"Buzz";
+    if (f) return @"Fizz";
     
     return fizzStr;
     
