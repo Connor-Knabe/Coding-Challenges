@@ -8,7 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface CAKViewController : UIViewController
+
+- (NSString*)fizzBuzz:(NSString*)testStr;
 
 
 @end

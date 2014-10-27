@@ -6,16 +6,21 @@
 //  Copyright (c) 2014 Connor Knabe. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CAKViewController.h"
 
-@interface ViewController ()
+@interface CAKViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CAKViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+}
+
+- (NSString*)fizzBuzz:(NSString*)testStr {
+    
     /*
      Given a string str, if the string starts with "f" return "Fizz". If the string ends with "b" return "Buzz". If both the "f" and "b" conditions are true, return "FizzBuzz". In all other cases, return the string unchanged.
      
@@ -33,10 +38,12 @@
     BOOL b = [bStr isEqualToString:@"b"];
     
     
-    
+    return @"a";
     
     
     NSLog(@"TEST");
+
+    
     
 }
 
