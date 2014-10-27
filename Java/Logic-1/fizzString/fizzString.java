@@ -5,9 +5,10 @@ fizzString("fig") → "Fizz"
 fizzString("dib") → "Buzz"
 fizzString("fib") → "FizzBuzz"
 */
-public class fizzString {
-    public static void main(String[] args) {
-        
-        
-    }
+public String fizzString(String str) {
+
+    if (str.substring(0,1).equals("f")){
+        return "Fizz";
+    }  
+  
 }
