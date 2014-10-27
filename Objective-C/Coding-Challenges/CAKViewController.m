@@ -16,10 +16,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog([@"Bub" substringFromIndex:[@"Bub" length]-1]);
+
     
 }
 
-- (NSString*)fizzBuzz:(NSString*)testStr {
+- (NSString*)fizzBuzz:(NSString*)fizzStr {
     
     /*
      Given a string str, if the string starts with "f" return "Fizz". If the string ends with "b" return "Buzz". If both the "f" and "b" conditions are true, return "FizzBuzz". In all other cases, return the string unchanged.
@@ -30,18 +32,16 @@
      fizzString("fib") → "FizzBuzz"
      */
     
-    NSString* str = @"fizz";
-    BOOL f = [str substringToIndex:1];
-    NSString* bStr =[str substringFromIndex:[str length]-1];
-    
-    BOOL b = [bStr isEqualToString:@"b"];
+    BOOL f = [fizzStr substringToIndex:1];
+    BOOL b = [[fizzStr substringFromIndex:[fizzStr length]-1] isEqualToString:@"b"];
     
     
-    return @"Fizz";
+    if (f) return @"Fizz";
+    if (b) return @"Buzz";
     
+    return fizzStr;
     
 
-    
     
 }
 

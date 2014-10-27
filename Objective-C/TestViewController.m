@@ -29,10 +29,16 @@
 
 - (void)testFizzBuzz_ReturnsFizz_Given_WordStartsWithF {
     NSString* result = [self.testObj fizzBuzz:@"Fizz"];
-    
     XCTAssert([result isEqualToString:@"Fizz"]);
-    
 }
+
+- (void)testFizzBuzz_ReturnsBuzz_Given_WordEndsWithB {
+    NSString* result = [self.testObj fizzBuzz:@"Bub"];
+    XCTAssert([result isEqualToString:@"Buzz"]);
+
+}
+
+
 
 
 
