@@ -33,7 +33,7 @@
     
     BOOL f = [fizzStr substringToIndex:1];
     BOOL b = [[fizzStr substringFromIndex:[fizzStr length]-1] isEqualToString:@"b"];
-    
+
     if (b) return @"Buzz";
     if (f) return @"Fizz";
     
