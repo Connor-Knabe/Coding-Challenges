@@ -6,15 +6,15 @@ fizzString("dib") → "Buzz"
 fizzString("fib") → "FizzBuzz"
 */
 public String fizzString(String str) {
-
-    if (str.substring(0,1).equals("f") && str.substring(str.length()-1).equals("b")){
-        return "FizzBuzz";
-    } else if (str.substring(0,1).equals("f")){
-        return "Fizz";
-    } else if (str.substring(str.length()-1).equals("b")){
-        return "Buzz";
-    } else {
-        return str;
+  boolean f = str.startsWith("f");
+  boolean b = str.endsWith("b");
   
-    }
+  if (f && b) return "FizzBuzz";
+  if (f) return "Fizz";
+  if (b) return "Buzz";
+  return str;
+  
+  // Style: you could use a series of "else" there, but it seems simpler
+  // to just not have them.
 }
+
