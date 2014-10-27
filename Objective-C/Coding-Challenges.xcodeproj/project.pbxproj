@@ -14,6 +14,7 @@
 		B312A54F19FE9663003F6070 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B312A54E19FE9663003F6070 /* Images.xcassets */; };
 		B312A55219FE9663003F6070 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B312A55019FE9663003F6070 /* LaunchScreen.xib */; };
 		B312A55E19FE9663003F6070 /* Coding_ChallengesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B312A55D19FE9663003F6070 /* Coding_ChallengesTests.m */; };
+		B312A56819FE997F003F6070 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B312A56719FE997F003F6070 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		B312A55719FE9663003F6070 /* Coding-ChallengesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coding-ChallengesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B312A55C19FE9663003F6070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B312A55D19FE9663003F6070 /* Coding_ChallengesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Coding_ChallengesTests.m; sourceTree = "<group>"; };
+		B312A56719FE997F003F6070 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 		B312A53519FE9663003F6070 = {
 			isa = PBXGroup;
 			children = (
+				B312A56719FE997F003F6070 /* TestViewController.m */,
 				B312A54019FE9663003F6070 /* Coding-Challenges */,
 				B312A55A19FE9663003F6070 /* Coding-ChallengesTests */,
 				B312A53F19FE9663003F6070 /* Products */,
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B312A56819FE997F003F6070 /* TestViewController.m in Sources */,
 				B312A55E19FE9663003F6070 /* Coding_ChallengesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				B312A56319FE9663003F6070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B312A56419FE9663003F6070 /* Build configuration list for PBXNativeTarget "Coding-ChallengesTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				B312A56619FE9663003F6070 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
