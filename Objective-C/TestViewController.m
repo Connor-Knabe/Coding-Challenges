@@ -30,7 +30,8 @@
 - (void)testFizzBuzz_ReturnsFizz_Given_WordStartsWithF {
     NSString* result = [self.testObj fizzBuzz:@"Fizz"];
     
-    XCTAssertEqual(result, @"Fizz");
+    XCTAssert([result isEqualToString:@"Fizz"]);
+    
 }
 
 

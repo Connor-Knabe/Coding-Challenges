@@ -34,14 +34,12 @@
     BOOL f = [str substringToIndex:1];
     NSString* bStr =[str substringFromIndex:[str length]-1];
     
-    
     BOOL b = [bStr isEqualToString:@"b"];
     
     
-    return @"a";
+    return @"Fizz";
     
     
-    NSLog(@"TEST");
 
     
     
