@@ -5,14 +5,16 @@ fizzString("fig") → "Fizz"
 fizzString("dib") → "Buzz"
 fizzString("fib") → "FizzBuzz"
 */
-public class fizzString {
-    public static void main(String[] args) {
-        String str = "fizb";
+public String fizzString(String str) {
 
-        if (str.substring(str.length()-1).equals("b")){
-        	System.out.println("B");
-        }
-        System.out.println(str.substring(str.length()-1));
-        
+    if (str.substring(0,1).equals("f") && str.substring(str.length()-1).equals("b")){
+        return "FizzBuzz";
+    } else if (str.substring(0,1).equals("f")){
+        return "Fizz";
+    } else if (str.substring(str.length()-1).equals("b")){
+        return "Buzz";
+    } else {
+        return str;
+  
     }
 }
