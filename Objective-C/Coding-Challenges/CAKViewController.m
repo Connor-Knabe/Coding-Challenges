@@ -31,9 +31,10 @@
      fizzString("fib") → "FizzBuzz"
      */
     
-    BOOL f = [fizzStr substringToIndex:1];
+    BOOL f = [[fizzStr substringToIndex:1]isEqualToString:@"f"];
     BOOL b = [[fizzStr substringFromIndex:[fizzStr length]-1] isEqualToString:@"b"];
 
+    if (b && f) return @"FizzBuzz";
     if (b) return @"Buzz";
     if (f) return @"Fizz";
     

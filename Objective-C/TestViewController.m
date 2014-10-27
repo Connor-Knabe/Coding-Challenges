@@ -38,7 +38,7 @@
 }
 
 - (void)testFizzBuzz_ReturnsFizzBuzz_Given_WordStartsWithFEndsWithB {
-    NSString* result = [self.testObj fizzBuzz:@"Fub"];
+    NSString* result = [self.testObj fizzBuzz:@"fub"];
     XCTAssert([result isEqualToString:@"FizzBuzz"]);
 
     
