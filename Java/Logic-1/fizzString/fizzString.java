@@ -9,6 +9,8 @@ public String fizzString(String str) {
 
     if (str.substring(0,1).equals("f")){
         return "Fizz";
-    }  
+    } else if (str.substring(str.length()-2).equals("b")){
+        return "Buzz";
+    }
   
 }
