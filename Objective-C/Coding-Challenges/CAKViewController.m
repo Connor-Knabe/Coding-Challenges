@@ -38,7 +38,8 @@
     if (b) return @"Buzz";
     if (f) return @"Fizz";
     
-    return @"a";
+    return fizzStr;
+    
 
     
 }
