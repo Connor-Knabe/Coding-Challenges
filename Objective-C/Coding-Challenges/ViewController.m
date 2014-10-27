@@ -26,6 +26,9 @@
      */
     
     NSString* str = @"fizz";
+    BOOL f = [str substringToIndex:1];
+    BOOL b = [str substringFromIndex:[str length]-1];
+    
     
     
     
