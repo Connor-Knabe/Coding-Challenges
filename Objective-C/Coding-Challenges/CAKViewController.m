@@ -59,6 +59,9 @@
      loneSum(3, 2, 3) → 2
      loneSum(3, 3, 3) → 0
      */
+    if (a == b && b ==c){
+        return 0;
+    }
     
     return a + b + c;
     

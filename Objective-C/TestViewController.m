@@ -82,6 +82,10 @@
     XCTAssertEqual([self.testObj loneSum:1 withB:2 withC:4], 7);
 }
 
+- (void)testLoneSumReturns0Given3SameValues {
+    XCTAssertEqual([self.testObj loneSum:3 withB:3 withC:3], 0);
+}
+
 
 
 
