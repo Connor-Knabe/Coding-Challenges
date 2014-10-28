@@ -60,8 +60,8 @@
      loneSum(3, 3, 3) → 0
      */
     
+    return a + b + c;
     
-    return 6;
 }
 
 
