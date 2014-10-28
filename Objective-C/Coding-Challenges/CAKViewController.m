@@ -39,7 +39,9 @@
     fizzString2(3) → "Fizz!"
     */
     
-   
+    if (n==3){
+        return @"Fizz!";
+    }
     
     
     return [NSString stringWithFormat:@"%ld!", (long)n];
