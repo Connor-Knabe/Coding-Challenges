@@ -43,10 +43,9 @@
         return @"Fizz!";
     } else if (n % 5 == 0) {
         return @"Buzz!";
+    } else {
+        return [NSString stringWithFormat:@"%ld!", (long)n];
     }
-    
-    
-    return [NSString stringWithFormat:@"%ld!", (long)n];
     
 }
 
