@@ -39,7 +39,7 @@
     fizzString2(3) → "Fizz!"
     */
     
-    if (n==3){
+    if (n % 3 == 0){
         return @"Fizz!";
     }
     
