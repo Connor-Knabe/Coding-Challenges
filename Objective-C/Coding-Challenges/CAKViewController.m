@@ -39,7 +39,7 @@
     fizzString2(3) → "Fizz!"
     */
     
-    return @"";
+    return @"1!";
     
 }
 
