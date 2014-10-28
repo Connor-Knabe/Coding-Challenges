@@ -51,6 +51,11 @@
     
 }
 
+- (NSInteger)loneSum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c {
+    
+    
+}
+
 
 
 
