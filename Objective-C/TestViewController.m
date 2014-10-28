@@ -55,6 +55,10 @@
     NSString* result = [self.testObj fizzBuzz2:2];
     XCTAssert([result isEqualToString:@"2!"]);
 }
+- (void)testFizzBuzz2_ReturnsFizzExclamation_WhenGivenNum3 {
+    NSString* result = [self.testObj fizzBuzz2:3];
+    XCTAssert([result isEqualToString:@"Fizz!"]);
+}
 
 
 
