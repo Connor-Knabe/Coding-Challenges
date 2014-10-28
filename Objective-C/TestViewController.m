@@ -75,6 +75,10 @@
     XCTAssert([result isEqualToString:@"FizzBuzz!"]);
 }
 
+- (void)testLoneSumReturns6Given1and2and3 {
+    XCTAssertEqual([self.testObj loneSum:1 withB:2 withC:3], 6);
+}
+
 
 
 @end
