@@ -11,7 +11,7 @@
 @interface CAKViewController : UIViewController
 
 - (NSString*)fizzBuzz:(NSString*)fizzStr;
-
+- (NSString*)fizzBuzz2:(NSInteger)n;
 
 @end
 
