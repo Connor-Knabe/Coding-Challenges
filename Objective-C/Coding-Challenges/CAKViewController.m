@@ -39,7 +39,8 @@
     fizzString2(3) → "Fizz!"
     */
     
-    return @"1!";
+    
+    return [NSString stringWithFormat:@"%ld!", (long)n];
     
 }
 
