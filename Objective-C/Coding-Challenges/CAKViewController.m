@@ -87,8 +87,17 @@
      luckySum(1, 2, 13) → 3
      luckySum(1, 13, 3) → 1
      */
-    
-    return 6;
+    NSInteger sum = 0;
+    if (a != 13){
+        sum += a;
+    }
+    if (b != 13){
+        sum += b;
+    }
+    if (c != 13){
+        sum += c;
+    }
+    return sum;
 }
 
 //Codingbat solutions Logic-2 End ----
