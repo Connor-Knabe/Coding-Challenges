@@ -12,6 +12,7 @@
     
 }
 
+//Codingbat solutions Logic-1 Start ----
 - (NSString*)fizzBuzz:(NSString*)fizzStr {
     /*
      Given a string str, if the string starts with "f" return "Fizz". If the string ends with "b" return "Buzz". If both the "f" and "b" conditions are true, return "FizzBuzz". In all other cases, return the string unchanged.
@@ -50,7 +51,10 @@
     }
     
 }
+//Codingbat solutions Logic-1 End ----
 
+
+//Codingbat solutions Logic-2 Start ----
 - (NSInteger)loneSum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c {
     /*
      Given 3 int values, a b c, return their sum. However, if one of the values is the same as another of the values, it does not count towards the sum.
@@ -87,6 +91,7 @@
     return 1;
 }
 
+//Codingbat solutions Logic-2 End ----
 
 
 
