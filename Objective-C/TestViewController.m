@@ -94,7 +94,9 @@
 - (void)testLuckySumReturns3Given1and2and13{
     XCTAssertEqual([self.testObj luckySum:1 withB:2 withC:13], 3);
 }
-
+- (void)testLuckySumReturns1Given1and13and2{
+    XCTAssertEqual([self.testObj luckySum:1 withB:13 withC:2], 1);
+}
 
 //Codingbat tests Logic-2 End ----
 
