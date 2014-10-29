@@ -91,8 +91,8 @@
 - (void)testLuckySumReturns6Given1and2and3{
     XCTAssertEqual([self.testObj luckySum:1 withB:2 withC:3], 6);
 }
-- (void)testLuckySumReturns6Given1and2and3{
-    XCTAssertEqual([self.testObj luckySum:1 withB:2 withC:3], 6);
+- (void)testLuckySumReturns3Given1and2and13{
+    XCTAssertEqual([self.testObj luckySum:1 withB:2 withC:13], 3);
 }
 
 
