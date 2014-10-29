@@ -26,6 +26,7 @@
 
 }
 
+//Codingbat tests Logic-1 Start ----
 
 - (void)testFizzBuzz_ReturnsFizz_Given_WordStartsWithF {
     NSString* result = [self.testObj fizzBuzz:@"Fizz"];
@@ -74,7 +75,9 @@
     NSString* result = [self.testObj fizzBuzz2:15];
     XCTAssert([result isEqualToString:@"FizzBuzz!"]);
 }
+//Codingbat tests Logic-1 End ----
 
+//Codingbat tests Logic-2 Start ----
 - (void)testLoneSumReturns6Given1and2and3 {
     XCTAssertEqual([self.testObj loneSum:1 withB:2 withC:3], 6);
 }
@@ -89,6 +92,13 @@
     XCTAssertEqual([self.testObj loneSum:3 withB:3 withC:2], 2);
 }
 
+
+- (void)testLuckySumReturns6Given1and2and3{
+    XCTAssertEqual([self.testObj luckySum:1 withB:2 withC:3], 6);
+}
+
+
+//Codingbat tests Logic-2 End ----
 
 
 

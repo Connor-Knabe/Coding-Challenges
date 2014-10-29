@@ -13,6 +13,7 @@
 - (NSString*)fizzBuzz:(NSString*)fizzStr;
 - (NSString*)fizzBuzz2:(NSInteger)n;
 - (NSInteger)loneSum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c;
+- (NSInteger)luckySum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c;
 
 @end
 
