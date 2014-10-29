@@ -32,21 +32,19 @@
     NSString* result = [self.testObj fizzBuzz:@"Fizz"];
     XCTAssert([result isEqualToString:@"Fizz"]);
 }
-
 - (void)testFizzBuzz_ReturnsBuzz_Given_WordEndsWithB {
     NSString* result = [self.testObj fizzBuzz:@"Bub"];
     XCTAssert([result isEqualToString:@"Buzz"]);
 }
-
 - (void)testFizzBuzz_ReturnsFizzBuzz_Given_WordStartsWithFEndsWithB {
     NSString* result = [self.testObj fizzBuzz:@"fub"];
     XCTAssert([result isEqualToString:@"FizzBuzz"]);
 }
-
 - (void)testFizzBuzz_ReturnsStr_Given_WordWithOut_f_or_b_in_front_or_end {
     NSString* result = [self.testObj fizzBuzz:@"buzz"];
     XCTAssert([result isEqualToString:@"buzz"]);
 }
+
 
 - (void)testFizzBuzz2_Returns1Exclamation_WhenGivenNum1 {
     NSString* result = [self.testObj fizzBuzz2:1];
@@ -60,12 +58,10 @@
     NSString* result = [self.testObj fizzBuzz2:3];
     XCTAssert([result isEqualToString:@"Fizz!"]);
 }
-
 - (void)testFizzBuzz2_ReturnsFizzExclamation_WhenGivenNumMod3Equals0 {
     NSString* result = [self.testObj fizzBuzz2:6];
     XCTAssert([result isEqualToString:@"Fizz!"]);
 }
-
 - (void)testFizzBuzz2_ReturnsBuzzExclamation_WhenGivenNumMod5Equals0 {
     NSString* result = [self.testObj fizzBuzz2:5];
     XCTAssert([result isEqualToString:@"Buzz!"]);
@@ -84,7 +80,6 @@
 - (void)testLoneSumReturns7Given1and2and4 {
     XCTAssertEqual([self.testObj loneSum:1 withB:2 withC:4], 7);
 }
-
 - (void)testLoneSumReturns0Given3SameValues {
     XCTAssertEqual([self.testObj loneSum:3 withB:3 withC:3], 0);
 }
@@ -93,6 +88,9 @@
 }
 
 
+- (void)testLuckySumReturns6Given1and2and3{
+    XCTAssertEqual([self.testObj luckySum:1 withB:2 withC:3], 6);
+}
 - (void)testLuckySumReturns6Given1and2and3{
     XCTAssertEqual([self.testObj luckySum:1 withB:2 withC:3], 6);
 }
