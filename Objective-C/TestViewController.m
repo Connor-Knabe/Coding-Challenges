@@ -28,6 +28,13 @@
 
 //Codingbat tests Logic-1 Start ----
 
+
+- (void)testCigarParty_ReturnsFalse_Given_30andfalse {
+    BOOL* result = [self.testObj fizzBuzz:@"Fizz"];
+
+}
+
+
 - (void)testFizzBuzz_ReturnsFizz_Given_WordStartsWithF {
     NSString* result = [self.testObj fizzBuzz:@"Fizz"];
     XCTAssert([result isEqualToString:@"Fizz"]);
