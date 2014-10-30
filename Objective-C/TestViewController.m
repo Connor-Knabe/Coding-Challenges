@@ -38,7 +38,10 @@
     BOOL result = [self.testObj cigarParty:50 with:NO];
     XCTAssert(result == YES);
 }
-
+- (void)testCigarParty_ReturnsYES_Given70andYES {
+    BOOL result = [self.testObj cigarParty:70 with:YES];
+    XCTAssert(result == YES);
+}
 
 - (void)testFizzBuzz_ReturnsFizz_Given_WordStartsWithF {
     NSString* result = [self.testObj fizzBuzz:@"Fizz"];
