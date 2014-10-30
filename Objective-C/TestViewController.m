@@ -29,9 +29,10 @@
 //Codingbat tests Logic-1 Start ----
 
 
-- (void)testCigarParty_ReturnsFalse_Given_30andfalse {
-    BOOL* result = [self.testObj fizzBuzz:@"Fizz"];
-
+- (void)testCigarParty_ReturnsYES_Given_30andNO {
+    BOOL result = [self.testObj cigarParty:30 with:NO];
+    XCTAssertEqual(result, NO);
+    
 }
 
 
