@@ -24,6 +24,10 @@
 
      */
     
+    if (cigars>=40 && cigars <= 60){
+        return YES;
+    }
+    
     return NO;
 }
 
