@@ -24,13 +24,9 @@
 
      */
     
-    if (cigars>=40 && cigars <= 60){
-        return YES;
-    } else if (cigars>=40 && weekend){
-        return YES;
-    }
+    return ((cigars>=40 && cigars <=60) || (cigars>=40 && weekend));
     
-    return NO;
+    
 }
 
 
