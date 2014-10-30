@@ -36,7 +36,7 @@
 
 - (void)testCigarParty_ReturnsYES_Given50andNO {
     BOOL result = [self.testObj cigarParty:50 with:NO];
-    XCTAssert(result == NO);
+    XCTAssert(result == YES);
 }
 
 
