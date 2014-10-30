@@ -29,10 +29,14 @@
 //Codingbat tests Logic-1 Start ----
 
 
-- (void)testCigarParty_ReturnsYES_Given_30andNO {
+- (void)testCigarParty_ReturnsNO_Given_30andNO {
     BOOL result = [self.testObj cigarParty:30 with:NO];
     XCTAssert(result == NO);
-    
+}
+
+- (void)testCigarParty_ReturnsYES_Given50andNO {
+    BOOL result = [self.testObj cigarParty:50 with:NO];
+    XCTAssert(result == NO);
 }
 
 
