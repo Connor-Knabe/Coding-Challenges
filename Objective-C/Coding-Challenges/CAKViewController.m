@@ -140,6 +140,8 @@
 - (BOOL)firstLast6:(NSArray*)nums {
     if ([[nums objectAtIndex:[nums count]-1] integerValue] == 6){
         return YES;
+    } else if ([[nums objectAtIndex:0] integerValue]==6){
+        return YES;
     }
     
     return NO;
