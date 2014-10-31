@@ -138,7 +138,7 @@
 
  */
 - (BOOL)firstLast6:(NSArray*)nums {
-    
+
     
     return NO;
 }

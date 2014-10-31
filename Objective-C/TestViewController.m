@@ -115,6 +115,17 @@
 
 //Codingbat tests Logic-2 End ----
 
+//Codingbat tests Array-1 Start ----
+
+- (void)testfirstLast6returnsYESgivenarray1and2and6 {
+    NSArray * numArr = [[NSArray alloc] initWithObjects:@"1",@"2",@"6"];
+
+    BOOL result = [self.testObj firstLast6:numArr];
+    
+    XCTAssertTrue(result);
+}
+
+//Codingbat tests Array-1 End ----
 
 
 @end
