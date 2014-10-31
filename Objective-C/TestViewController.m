@@ -118,10 +118,14 @@
 //Codingbat tests Array-1 Start ----
 
 - (void)testfirstLast6returnsYESgivenarray1and2and6 {
-    NSArray * numArr = [[NSArray alloc] initWithObjects:@"1",@"2",@"6"];
-
+    NSArray * numArr = [[NSArray alloc] initWithObjects:@"1",@"2",@"6", nil];
     BOOL result = [self.testObj firstLast6:numArr];
-    
+    XCTAssertTrue(result);
+}
+
+- (void)testfirstLast6returnsYESgivenarray6and2and1 {
+    NSArray * numArr = [[NSArray alloc] initWithObjects:@"6",@"1",@"1", nil];
+    BOOL result = [self.testObj firstLast6:numArr];
     XCTAssertTrue(result);
 }
 
