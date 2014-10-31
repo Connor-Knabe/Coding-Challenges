@@ -143,8 +143,7 @@
     } else if ([[nums objectAtIndex:0] integerValue]==6){
         return YES;
     }
-    
-    return NO;
+    return YES;
 }
 
 

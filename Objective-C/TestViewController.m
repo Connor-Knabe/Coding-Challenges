@@ -129,6 +129,13 @@
     XCTAssertTrue(result);
 }
 
+- (void)testfirstLast6returnsNOgivenarray1and2and1 {
+    NSArray * numArr = [[NSArray alloc] initWithObjects:@"1",@"1",@"1", nil];
+    BOOL result = [self.testObj firstLast6:numArr];
+    XCTAssertFalse(result);
+}
+
+
 //Codingbat tests Array-1 End ----
 
 
