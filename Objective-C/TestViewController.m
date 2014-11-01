@@ -136,6 +136,16 @@
 }
 
 
+- (void)testSameFirstLastreturnsNOgivenarray1and2and3 {
+    NSArray * numArr = [[NSArray alloc] initWithObjects:@"1",@"2",@"3", nil];
+    BOOL result = [self.testObj firstLast6:numArr];
+    XCTAssertTrue(result);
+}
+
+
+
+
+
 //Codingbat tests Array-1 End ----
 
 

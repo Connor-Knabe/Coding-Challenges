@@ -16,6 +16,7 @@
 - (NSInteger)luckySum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c;
 - (BOOL)cigarParty:(NSInteger)cigars with:(BOOL)weekend;
 - (BOOL)firstLast6:(NSArray*)nums;
+- (BOOL)sameFirstLast:(NSArray*)nums;
 
 @end
 
