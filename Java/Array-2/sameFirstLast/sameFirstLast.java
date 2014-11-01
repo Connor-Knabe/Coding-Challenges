@@ -7,9 +7,12 @@ sameFirstLast({1, 2, 3, 1}) → true
 sameFirstLast({1, 2, 1}) → true
 
 */
-public class sameFirstLast {
-    public static void main(String[] args) {
-        
-        
-    }
+
+public boolean sameFirstLast(int[] nums) {
+  
+  if(nums[0] == nums[nums.length-1]){
+      return true;
+  }else{
+      return false;
+  }
 }
