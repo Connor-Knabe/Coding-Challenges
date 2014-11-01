@@ -158,6 +158,10 @@
 
 - (BOOL)sameFirstLast:(NSArray*)nums{
     
+    if ([nums count]<1){
+        return NO;
+    }
+    
     if([[nums objectAtIndex:0] integerValue] == [[nums objectAtIndex:[nums count]-1] integerValue] ){
         return YES;
     } else {
