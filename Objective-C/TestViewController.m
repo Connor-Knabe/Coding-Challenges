@@ -138,12 +138,12 @@
 
 - (void)testSameFirstLastreturnsNOgivenarray1and2and3 {
     NSArray * numArr = [[NSArray alloc] initWithObjects:@"1",@"2",@"3", nil];
-    BOOL result = [self.testObj firstLast6:numArr];
+    BOOL result = [self.testObj sameFirstLast:numArr];
     XCTAssertFalse(result);
 }
 - (void)testSameFirstLastreturnsYESgivenarray1and2and1 {
     NSArray * numArr = [[NSArray alloc] initWithObjects:@"1",@"2",@"1", nil];
-    BOOL result = [self.testObj firstLast6:numArr];
+    BOOL result = [self.testObj sameFirstLast:numArr];
     XCTAssertTrue(result);
 }
 
