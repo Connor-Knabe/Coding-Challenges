@@ -147,6 +147,11 @@
     XCTAssertTrue(result);
 }
 
+- (void)testSameFirstLastreturnsYESgivenEmptyArray {
+    NSArray * numArr = [[NSArray alloc] initWithObjects: nil];
+    BOOL result = [self.testObj sameFirstLast:numArr];
+    XCTAssertFalse(result);
+}
 
 
 
