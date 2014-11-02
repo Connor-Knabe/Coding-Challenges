@@ -208,7 +208,7 @@
 
 - (BOOL)scoresIncreasing:(NSArray*)scores {
     
-    return NO;
+    return YES;
 }
 
 
