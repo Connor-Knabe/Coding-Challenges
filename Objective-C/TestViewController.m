@@ -122,7 +122,7 @@
     XCTAssert(result == 3);
 }
 
-- (void)testNoTeenSumReturnsReturns3Given2and1and14 {
+- (void)testNoTeenSumReturnsReturns3Givenand1and14 {
     NSInteger result = [self.testObj noTeenSum:2 withB:1 withC:14];
     XCTAssert(result == 3);
 }
@@ -170,13 +170,19 @@
     XCTAssertFalse(result);
 }
 
-
-
-
-
-
-
 //Codingbat tests Array-1 End ----
 
+
+//Codingbat tests AP-1 Start ----
+
+- (void)testScoresIncreasingReturnsYESGiven1and3and4 {
+    NSArray* numArr = [[NSArray alloc] initWithObjects:@"1",@"3",@"4",nil];
+    
+    BOOL result = [self.testObj scoresIncreasing:numArr];
+    
+    XCTAssertTrue(result);
+}
+
+//Codingbat tests AP-1 End ----
 
 @end
