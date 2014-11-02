@@ -113,6 +113,11 @@
     XCTAssertEqual([self.testObj luckySum:1 withB:13 withC:2], 1);
 }
 
+- (void)testNoTeenSumReturnsReturns6Given1and2and3 {
+    NSInteger result = [self.testObj noTeenSum:1 withB:2 withC:3];
+    XCTAssert(result == 6);
+}
+
 //Codingbat tests Logic-2 End ----
 
 //Codingbat tests Array-1 Start ----
