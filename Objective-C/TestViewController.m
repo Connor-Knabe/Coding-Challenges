@@ -187,6 +187,12 @@
     XCTAssertFalse(result);
 }
 
+- (void)testScores100ReturnsYESGiven1and100and100 {
+    NSArray* numArr = [[NSArray alloc] initWithObjects:@"1",@"100",@"100",nil];
+    BOOL result = [self.testObj scores100:numArr];
+    XCTAssertTrue(result);
+
+}
 
 //Codingbat tests AP-1 End ----
 
