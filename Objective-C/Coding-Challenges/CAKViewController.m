@@ -133,7 +133,7 @@
 
 - (NSInteger)noTeenSum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c {
     
-    return 1;
+    return 6;
 }
 
 
