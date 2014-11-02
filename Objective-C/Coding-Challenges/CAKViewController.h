@@ -19,6 +19,7 @@
 - (BOOL)sameFirstLast:(NSArray*)nums;
 - (NSInteger)noTeenSum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c;
 - (BOOL)scoresIncreasing:(NSArray*)scores;
+- (BOOL)scores100:(NSArray*)scores;
 
 @end
 

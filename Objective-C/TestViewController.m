@@ -185,7 +185,6 @@
     NSArray* numArr = [[NSArray alloc] initWithObjects:@"5",@"3",@"4",nil];
     BOOL result = [self.testObj scoresIncreasing:numArr];
     XCTAssertFalse(result);
-
 }
 
 

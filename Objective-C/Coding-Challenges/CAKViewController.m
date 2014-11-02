@@ -216,6 +216,10 @@
     return YES;
 }
 
+- (BOOL)scores100:(NSArray*)scores {
+
+    return NO;
+}
 
 
 //Codingbat solutions AP-1 End ----
