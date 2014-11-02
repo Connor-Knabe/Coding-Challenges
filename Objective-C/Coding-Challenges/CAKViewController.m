@@ -207,7 +207,12 @@
  */
 
 - (BOOL)scoresIncreasing:(NSArray*)scores {
-    
+    for (NSInteger i=1; i<[scores count];i++){
+        if ([scores[i-1] integerValue] > [scores[i] integerValue]){
+            return NO;
+        }
+        
+    }
     return YES;
 }
 

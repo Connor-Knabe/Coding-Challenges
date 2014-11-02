@@ -181,10 +181,11 @@
     XCTAssertTrue(result);
 }
 
-- (void)testScoresIncreasingReturnsNOGiven3and3and4 {
-    NSArray* numArr = [[NSArray alloc] initWithObjects:@"3",@"3",@"4",nil];
+- (void)testScoresIncreasingReturnsNOGiven5and3and4 {
+    NSArray* numArr = [[NSArray alloc] initWithObjects:@"5",@"3",@"4",nil];
     BOOL result = [self.testObj scoresIncreasing:numArr];
     XCTAssertFalse(result);
+
 }
 
 
