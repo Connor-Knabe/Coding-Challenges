@@ -199,7 +199,12 @@
 - (BOOL)scores100:(NSArray*)scores {
     /* Given an array of scores, return true if there are scores of 100 next to each other in the array. The array length will be at least 2.*/
     
-    return YES;
+    for (NSInteger i=1; i<[scores count];i++){
+        if ([scores[i-1] integerValue] == 100 && [scores[i] integerValue] == 100){
+            return YES;
+        }
+    }
+    return NO;
 }
 
 
