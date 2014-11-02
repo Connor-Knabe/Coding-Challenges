@@ -122,6 +122,11 @@
     XCTAssert(result == 3);
 }
 
+- (void)testNoTeenSumReturnsReturns3Given2and1and14 {
+    NSInteger result = [self.testObj noTeenSum:2 withB:1 withC:14];
+    XCTAssert(result == 3);
+}
+
 
 
 
