@@ -117,6 +117,13 @@
     NSInteger result = [self.testObj noTeenSum:1 withB:2 withC:3];
     XCTAssert(result == 6);
 }
+- (void)testNoTeenSumReturnsReturns3Given2and13and1 {
+    NSInteger result = [self.testObj noTeenSum:2 withB:13 withC:1];
+    XCTAssert(result == 3);
+}
+
+
+
 
 //Codingbat tests Logic-2 End ----
 

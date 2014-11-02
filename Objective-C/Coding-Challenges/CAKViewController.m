@@ -132,8 +132,17 @@
  */
 
 - (NSInteger)noTeenSum:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c {
-    
-    return 6;
+    NSInteger sum = 0;
+    if (a<13 || a>19){
+        sum += a;
+    }
+    if (b<13 || b>19){
+        sum += b;
+    }
+    if (c<13 || c>19){
+        sum += c;
+    }
+    return sum;
 }
 
 
