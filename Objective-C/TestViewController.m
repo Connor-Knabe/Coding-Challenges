@@ -164,7 +164,7 @@
     XCTAssertTrue(result);
 }
 
-- (void)testSameFirstLastreturnsYESgivenEmptyArray {
+- (void)testSameFirstLastreturnsNOgivenEmptyArray {
     NSArray * numArr = [[NSArray alloc] initWithObjects: nil];
     BOOL result = [self.testObj sameFirstLast:numArr];
     XCTAssertFalse(result);
@@ -191,7 +191,12 @@
     NSArray* numArr = [[NSArray alloc] initWithObjects:@"1",@"100",@"100",nil];
     BOOL result = [self.testObj scores100:numArr];
     XCTAssertTrue(result);
-
+}
+- (void)testScores100ReturnsNOGiven1and1and100 {
+    NSArray* numArr = [[NSArray alloc] initWithObjects:@"1",@"1",@"100",nil];
+    BOOL result = [self.testObj scores100:numArr];
+    XCTAssertFalse(result);
+    
 }
 
 //Codingbat tests AP-1 End ----
