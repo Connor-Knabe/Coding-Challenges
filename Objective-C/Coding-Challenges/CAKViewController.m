@@ -200,6 +200,23 @@
 
 
 
+//Codingbat solutions AP-1 Start ----
+
+/*
+ Given an array of scores, return true if each score is equal or greater than the one before.  The array will be length 2 or more.
+ */
+
+- (BOOL)scoresIncreasing:(NSArray*)scores {
+    
+    return NO;
+}
+
+
+
+//Codingbat solutions AP-1 End ----
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
