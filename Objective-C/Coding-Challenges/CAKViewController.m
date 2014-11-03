@@ -198,13 +198,17 @@
 
 - (BOOL)scores100:(NSArray*)scores {
     /* Given an array of scores, return true if there are scores of 100 next to each other in the array. The array length will be at least 2.*/
-    
     for (NSInteger i=1; i<[scores count];i++){
         if ([scores[i-1] integerValue] == 100 && [scores[i] integerValue] == 100){
             return YES;
         }
     }
     return NO;
+}
+
+- (NSInteger)commonTwo:(NSArray*)a withBArray:(NSArray*)b{
+    /* Start with two arrays of strings, a and b, each in alphabetical order, possibly with duplicates. Return the count of the number of strings which appear in both arrays. The best "linear" solution makes a single pass over both arrays, taking advantage of the fact that they are in alphabetical order. */
+    return 0;
 }
 
 

@@ -196,6 +196,10 @@
     NSArray* numArr = [[NSArray alloc] initWithObjects:@"1",@"1",@"100",nil];
     BOOL result = [self.testObj scores100:numArr];
     XCTAssertFalse(result);
+}
+
+- (void)testCommonTwoReturns2GivenArrayWithTwoSameCharacters {
+    
     
 }
 
