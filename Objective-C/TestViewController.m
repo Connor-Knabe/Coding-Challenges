@@ -202,12 +202,18 @@
     NSArray* arrA = [[NSArray alloc]initWithObjects:@"a",@"c",@"x", nil];
     NSArray* arrB = [[NSArray alloc]initWithObjects:@"b",@"c",@"d",@"x", nil];
 
-    
     NSInteger result = [self.testObj commonTwo:arrA withBArray:arrB];
     XCTAssert(result == 2);
-    
 }
 
+
+- (void)testCommonTwoReturns3GivenArrayWithThreeSameCharacters {
+    NSArray* arrA = [[NSArray alloc]initWithObjects:@"a",@"b",@"c", nil];
+    NSArray* arrB = [[NSArray alloc]initWithObjects:@"a",@"b",@"c", nil];
+    
+    NSInteger result = [self.testObj commonTwo:arrA withBArray:arrB];
+    XCTAssert(result == 3);
+}
 //Codingbat tests AP-1 End ----
 
 @end
