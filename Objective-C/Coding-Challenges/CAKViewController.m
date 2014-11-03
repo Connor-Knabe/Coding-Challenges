@@ -215,7 +215,12 @@
     for (NSInteger i = 0; i < [a count]; i++){
         for (NSInteger j = 0; j < [b count]; j++){
             if ([a[i] isEqualToString:b[j]]){
-                total++;
+                for (NSInteger k = 0; k < [addedArr count];k++){
+                    if (![a[i] isEqualToString:addedArr[k]]){
+                        [addedArr addObject:a[i]];
+                        total++;
+                    }
+                }
             }
         }
     }
