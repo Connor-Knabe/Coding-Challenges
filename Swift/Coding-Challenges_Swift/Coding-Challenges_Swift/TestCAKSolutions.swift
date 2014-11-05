@@ -7,8 +7,6 @@ class TestCAKSolutions: XCTestCase {
     override func setUp() {
         super.setUp()
         testObj = CAKSolutions()
-        
-        // Put setup code here. This method is called before the invocation of each test method in the class.
     }
     
   
@@ -29,5 +27,4 @@ class TestCAKSolutions: XCTestCase {
         XCTAssert(result == "FizzBuzz");
     }
     
-
 }
