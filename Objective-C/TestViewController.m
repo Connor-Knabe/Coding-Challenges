@@ -218,6 +218,12 @@
     NSInteger result = [self.testObj commonTwo:arrA withBArray:arrB];
     XCTAssert(result == 4);
 }
+- (void)testCommonTwoReturns2GivenArrayWithTwoSameCharactersInWeirdOrder {
+    NSArray* arrA = [[NSArray alloc]initWithObjects:@"a",@"c",@"d",@"e",@"x", nil];
+    NSArray* arrB = [[NSArray alloc]initWithObjects:@"a",@"e", nil];
+    NSInteger result = [self.testObj commonTwo:arrA withBArray:arrB];
+    XCTAssert(result == 4);
+}
 
 
 
