@@ -41,6 +41,7 @@
 		B3D29ED61A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding_Challenges_SwiftTests.swift; sourceTree = "<group>"; };
 		B3D29EE01A09276B00F243E1 /* TestCAKSolutions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCAKSolutions.swift; sourceTree = "<group>"; };
 		B3D29EE21A092C1C00F243E1 /* CAKSolutions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAKSolutions.swift; sourceTree = "<group>"; };
+		B3F62C6C1A0A757C005220C5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 		B3D29EB21A0926F200F243E1 = {
 			isa = PBXGroup;
 			children = (
+				B3F62C6C1A0A757C005220C5 /* MyPlayground.playground */,
 				B3D29EBD1A0926F200F243E1 /* Coding-Challenges_Swift */,
 				B3D29ED31A0926F300F243E1 /* Coding-Challenges_SwiftTests */,
 				B3D29EBC1A0926F200F243E1 /* Products */,
