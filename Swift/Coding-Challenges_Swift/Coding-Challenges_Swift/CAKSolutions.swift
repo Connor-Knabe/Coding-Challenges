@@ -15,9 +15,9 @@ class CAKSolutions {
         let f: Bool = (firstChar == "f")
         let b: Bool = (lastChar == "b")
         
-        if (f){ return "Fizz" }
-        if (b){ return "Buzz" }
-        
+        if (f && b) { return "FizzBuzz" }
+        if (f) { return "Fizz" }
+        if (b) { return "Buzz" }
         return str;
     }
     
