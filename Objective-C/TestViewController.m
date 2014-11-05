@@ -199,10 +199,17 @@
 }
 
 - (void)testCommonTwoReturns2GivenArrayWithTwoSameCharacters {
+    NSArray* arrA = [[NSArray alloc]initWithObjects:@"a",@"b",@"d", nil];
+    NSArray* arrB = [[NSArray alloc]initWithObjects:@"a",@"b",@"f", nil];
+    NSInteger result = [self.testObj commonTwo:arrA withBArray:arrB];
+    XCTAssert(result == 2);
+}
+
+- (void)testCommonTwoReturns3GivenArrayWithThreeSameCharacters {
     NSArray* arrA = [[NSArray alloc]initWithObjects:@"a",@"b",@"c", nil];
     NSArray* arrB = [[NSArray alloc]initWithObjects:@"a",@"b",@"c", nil];
     NSInteger result = [self.testObj commonTwo:arrA withBArray:arrB];
-    XCTAssert(result == 2);
+    XCTAssert(result == 3);
 }
 
 
