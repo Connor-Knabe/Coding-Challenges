@@ -19,8 +19,12 @@ class TestCAKSolutions: XCTestCase {
     func testFizzBuzz_Returns_Fizz_Given_Word_starts_with_F(){
         var result = testObj?.fizzBuzz("funny");
         XCTAssert(result == "Fizz");
-        
     }
+    func testFizzBuzz_Returns_Buzz_Given_Word_starts_with_B(){
+        var result = testObj?.fizzBuzz("bab");
+        XCTAssert(result == "Buzz");
+    }
+
     
 
 }
