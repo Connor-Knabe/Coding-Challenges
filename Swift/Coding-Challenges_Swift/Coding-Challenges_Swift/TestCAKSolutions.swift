@@ -1,7 +1,7 @@
 import UIKit
 import XCTest
 
-class TestViewController: XCTestCase {
+class TestCAKSolutions: XCTestCase {
     var testObj :CAKSolutions?
 
     override func setUp() {
@@ -12,9 +12,13 @@ class TestViewController: XCTestCase {
     }
     
   
-    func testFizzBuzz(){
+    func testFizzBuzz_Returns_Word_Given_Word_Not_Starting_WithF_or_ending_in_b(){
         var result = testObj?.fizzBuzz("TEST");
         XCTAssert(result == "TEST");
+    }
+    func testFizzBuzz_Returns_Fizz_Given_Word_starts_with_F(){
+        var result = testObj?.fizzBuzz("funny");
+        XCTAssert(result == "Fizz");
         
     }
     

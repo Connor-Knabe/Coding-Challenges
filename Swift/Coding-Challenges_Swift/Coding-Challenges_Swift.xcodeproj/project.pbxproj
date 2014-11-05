@@ -13,7 +13,7 @@
 		B3D29EC81A0926F200F243E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D29EC71A0926F200F243E1 /* Images.xcassets */; };
 		B3D29ECB1A0926F200F243E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D29EC91A0926F200F243E1 /* LaunchScreen.xib */; };
 		B3D29ED71A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29ED61A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift */; };
-		B3D29EE11A09276B00F243E1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29EE01A09276B00F243E1 /* TestViewController.swift */; };
+		B3D29EE11A09276B00F243E1 /* TestCAKSolutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29EE01A09276B00F243E1 /* TestCAKSolutions.swift */; };
 		B3D29EE31A092C1C00F243E1 /* CAKSolutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29EE21A092C1C00F243E1 /* CAKSolutions.swift */; };
 		B3F62C6B1A0A7008005220C5 /* CAKSolutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29EE21A092C1C00F243E1 /* CAKSolutions.swift */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 		B3D29ED01A0926F300F243E1 /* Coding-Challenges_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coding-Challenges_SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D29ED51A0926F300F243E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D29ED61A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coding_Challenges_SwiftTests.swift; sourceTree = "<group>"; };
-		B3D29EE01A09276B00F243E1 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		B3D29EE01A09276B00F243E1 /* TestCAKSolutions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestCAKSolutions.swift; sourceTree = "<group>"; };
 		B3D29EE21A092C1C00F243E1 /* CAKSolutions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAKSolutions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,7 +88,7 @@
 				B3D29EC71A0926F200F243E1 /* Images.xcassets */,
 				B3D29EC91A0926F200F243E1 /* LaunchScreen.xib */,
 				B3D29EBE1A0926F200F243E1 /* Supporting Files */,
-				B3D29EE01A09276B00F243E1 /* TestViewController.swift */,
+				B3D29EE01A09276B00F243E1 /* TestCAKSolutions.swift */,
 				B3D29EE21A092C1C00F243E1 /* CAKSolutions.swift */,
 			);
 			path = "Coding-Challenges_Swift";
@@ -230,7 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3F62C6B1A0A7008005220C5 /* CAKSolutions.swift in Sources */,
-				B3D29EE11A09276B00F243E1 /* TestViewController.swift in Sources */,
+				B3D29EE11A09276B00F243E1 /* TestCAKSolutions.swift in Sources */,
 				B3D29ED71A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
