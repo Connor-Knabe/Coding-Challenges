@@ -225,6 +225,12 @@
     XCTAssert(result == 2);
 }
 
+- (void)testCommonTwoReturns1GivenArrayWithOneSameCharacter {
+    NSArray* arrA = [[NSArray alloc]initWithObjects:@"a",@"c", nil];
+    NSArray* arrB = [[NSArray alloc]initWithObjects:@"a",@"e",@"z", nil];
+    NSInteger result = [self.testObj commonTwo:arrA withBArray:arrB];
+    XCTAssert(result == 1);
+}
 
 
 
