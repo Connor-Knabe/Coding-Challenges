@@ -15,6 +15,7 @@
 		B3D29ED71A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29ED61A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift */; };
 		B3D29EE11A09276B00F243E1 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29EE01A09276B00F243E1 /* TestViewController.swift */; };
 		B3D29EE31A092C1C00F243E1 /* CAKSolutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29EE21A092C1C00F243E1 /* CAKSolutions.swift */; };
+		B3F62C6B1A0A7008005220C5 /* CAKSolutions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D29EE21A092C1C00F243E1 /* CAKSolutions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -228,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3F62C6B1A0A7008005220C5 /* CAKSolutions.swift in Sources */,
 				B3D29EE11A09276B00F243E1 /* TestViewController.swift in Sources */,
 				B3D29ED71A0926F300F243E1 /* Coding_Challenges_SwiftTests.swift in Sources */,
 			);
