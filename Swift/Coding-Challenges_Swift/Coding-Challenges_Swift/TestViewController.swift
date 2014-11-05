@@ -1,11 +1,3 @@
-//
-//  TestViewController.swift
-//  Coding-Challenges_Swift
-//
-//  Created by Connor Knabe on 11/4/14.
-//  Copyright (c) 2014 Connor Knabe. All rights reserved.
-//
-
 import UIKit
 import XCTest
 

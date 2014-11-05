@@ -7,7 +7,7 @@ class CAKSolutions {
     
     func fizzBuzz(str: String)->String {
         
-        return "A";
+        return str;
     }
     
     
