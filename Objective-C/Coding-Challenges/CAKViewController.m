@@ -210,10 +210,18 @@
     /* Start with two arrays of strings, a and b, each in alphabetical order, possibly with duplicates. Return the count of the number of strings which appear in both arrays. The best "linear" solution makes a single pass over both arrays, taking advantage of the fact that they are in alphabetical order. */
     NSInteger sum = 0;
     
+    
     for (NSInteger i=0; i<[a count]; i++){
         for (NSInteger j=0; j<[b count]; j++){
             if ([a[i] isEqualToString:b[j]]){
-                sum++;
+                
+                if (i<[a count]-1){
+                    if(![a[i] isEqualToString:a[i+1]]){
+                        sum++;
+                    }
+                } else {
+                    sum++;
+                }
             }
         }
         
