@@ -8,13 +8,16 @@ class CAKSolutions {
     func fizzBuzz(str: String)->String {
         
         
-        let ss1: String = str.substringToIndex(1);
+        let sub: String = (str as NSString).substringToIndex(1);
         
         
-        if (str.substringToIndex(1) == "f"){
+        let f: Bool = (sub == "f")
+        
+        if (f){
             
-            
+            return "Fizz"
         }
+        
         return str;
     }
     

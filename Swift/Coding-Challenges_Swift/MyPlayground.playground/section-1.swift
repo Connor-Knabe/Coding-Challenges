@@ -2,8 +2,8 @@
 
 import UIKit
 
-var str = "Hello, playground"
 
 let str: String = "funny"
-let ss1: String = str.substringToIndex(1)
+let ss1: String = (str as NSString).substringToIndex(1)
+
 
