@@ -2,9 +2,7 @@
 
 makePi() → {3, 1, 4}*/
 
-public class makePi {
-    public static void main(String[] args) {
-        
-        
-    }
+public int[] makePi() {
+   int[] arr = {3,1,4};
+   return arr;
 }
