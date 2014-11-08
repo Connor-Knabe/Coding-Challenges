@@ -7,10 +7,8 @@ countHi("hihi") → 2
 
 public int countHi(String str) {
     int sum = 0;
-    String strhi = "";
     for(int i=0;i<str.length()-1;i++){
-        strhi = str.substring(i,i+2);
-        if (strhi.equals("hi")){
+        if (str.substring(i,i+2).equals("hi")){
             sum++;
         }
     }
