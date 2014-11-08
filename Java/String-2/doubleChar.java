@@ -1,18 +1,15 @@
-/*Given a string, return a string where for every char in the original, there are two chars. 
+/*Given a string, return a string where for every char in the original, there are two chars.
 
 doubleChar("The") → "TThhee"
 doubleChar("AAbb") → "AAAAbbbb"
 doubleChar("Hi-There") → "HHii--TThheerree"
 */
 
-public class doubleChar {
-    public static void main(String[] args) {
-    	String str = "The";
-    	String str2 = "";
-    	for (int i=0; i<str.length();i++){
-    		str2 += str.charAt(i);
-    	}    
-    	System.out.println(str2);
-        
+public String doubleChar(String str) {
+    String str2 = "";
+    for (int i=0; i<str.length();i++){
+    	str2 += str.charAt(i);
+    	str2 += str.charAt(i);
     }
+    return str2;
 }
