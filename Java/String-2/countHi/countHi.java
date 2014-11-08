@@ -9,8 +9,12 @@ public class countHi {
     public static void main(String[] args) {
         String str = "hihi";
         int sum = 0;
+        String strhi = "";
         for(int i=0;i<str.length();i++){
-            System.out.println(str.substring(i,i+1));
+            strhi = str.substring(i,i+1);
+            if (strhi.equals("hi")){
+                sum++;
+            }
         }
         System.out.println(sum);
     }
