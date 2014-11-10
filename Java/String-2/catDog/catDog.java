@@ -17,6 +17,4 @@ public boolean catDog(String str) {
         }
     }
     return (catSum == dogSum);
-
-
 }
