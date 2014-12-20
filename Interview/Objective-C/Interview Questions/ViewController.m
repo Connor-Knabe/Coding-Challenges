@@ -25,7 +25,7 @@
 
 - (NSString*)fizzBuzz:(NSString*)word {
     
-    return @"t";
+    return @"F";
 }
 
 
