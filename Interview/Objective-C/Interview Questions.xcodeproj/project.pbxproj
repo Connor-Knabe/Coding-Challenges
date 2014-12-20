@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B375F9BF1A44FFF400FBAC31 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B375F9BE1A44FFF400FBAC31 /* TestClass.m */; };
 		B3C44A221A44FED900E9B7DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C44A211A44FED900E9B7DF /* main.m */; };
 		B3C44A251A44FED900E9B7DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C44A241A44FED900E9B7DF /* AppDelegate.m */; };
 		B3C44A281A44FED900E9B7DF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C44A271A44FED900E9B7DF /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B375F9BE1A44FFF400FBAC31 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 		B3C44A1C1A44FED900E9B7DF /* Interview Questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Interview Questions.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3C44A201A44FED900E9B7DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3C44A211A44FED900E9B7DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				B3C44A2C1A44FED900E9B7DF /* Images.xcassets */,
 				B3C44A2E1A44FED900E9B7DF /* LaunchScreen.xib */,
 				B3C44A1F1A44FED900E9B7DF /* Supporting Files */,
+				B375F9BE1A44FFF400FBAC31 /* TestClass.m */,
 			);
 			path = "Interview Questions";
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B375F9BF1A44FFF400FBAC31 /* TestClass.m in Sources */,
 				B3C44A3C1A44FED900E9B7DF /* Interview_QuestionsTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +418,7 @@
 				B3C44A411A44FED900E9B7DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3C44A421A44FED900E9B7DF /* Build configuration list for PBXNativeTarget "Interview QuestionsTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +427,7 @@
 				B3C44A441A44FED900E9B7DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
