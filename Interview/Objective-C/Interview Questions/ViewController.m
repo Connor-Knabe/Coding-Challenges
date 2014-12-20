@@ -34,9 +34,8 @@
         return @"b";
     if (f)
         return @"f";
- 
     else
-        return @"asf";
+        return word;
 }
 
 
