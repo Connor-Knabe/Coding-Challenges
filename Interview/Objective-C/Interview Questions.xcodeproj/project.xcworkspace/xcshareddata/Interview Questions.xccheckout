@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>930A04D6-9E44-419F-AB5C-B8038C20291E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Interview Questions</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD254129A0FB1F03AB6AAE294227F874CD0F0814</key>
+		<string>github.com:Connor-Knabe/CodingBat.com-Java.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Interview/Objective-C/Interview Questions.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD254129A0FB1F03AB6AAE294227F874CD0F0814</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Connor-Knabe/CodingBat.com-Java.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD254129A0FB1F03AB6AAE294227F874CD0F0814</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD254129A0FB1F03AB6AAE294227F874CD0F0814</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Coding-Challenges</string>
+		</dict>
+	</array>
+</dict>
+</plist>
