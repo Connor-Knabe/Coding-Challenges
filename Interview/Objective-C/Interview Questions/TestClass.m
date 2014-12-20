@@ -56,6 +56,12 @@
     XCTAssertTrue([result isEqualToString:(@"FizzBuzz")]);
 }
 
+- (void)testFizzBuzzReturns_world_Given_world {
+    NSString* result = [self.testObj fizzBuzz:@"world"];
+    XCTAssertTrue([result isEqualToString:(@"world")]);
+}
+
+
 
 
 @end
