@@ -240,8 +240,6 @@
     NSInteger largeGap = ABS(c-b);
     NSInteger medGap = ABS(c-a);
     
-
-    //4, 6, 2
     
     if(smallGap == largeGap){
         return YES;
