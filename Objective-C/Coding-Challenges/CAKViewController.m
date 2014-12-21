@@ -236,20 +236,19 @@
 
 
 - (BOOL)evenlySpaced:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c {
-    NSInteger smallGap = ABS(b-a);
-    NSInteger largeGap = ABS(c-b);
-    NSInteger medGap = ABS(c-a);
+    NSInteger firstGap = ABS(a-b);
+    NSInteger secondGap = ABS(b-c);
+    NSInteger thirdGap = ABS(a-c);
     
-    
-    if(smallGap == largeGap){
-        return YES;
-    } else if(medGap == largeGap) {
-        return YES;
-    } else if (medGap == smallGap){
-        return YES;
-    } else {
-        return NO;
-    }
+        if(firstGap == secondGap && (a!=c && a!=b&&b!= c) ) {
+            return YES;
+        } else if(firstGap == thirdGap && (a!=c && a!=b&&b!= c)) {
+            return YES;
+        } else if(thirdGap == secondGap && (a!=c && a!=b && b!= c)) {
+            return YES;
+        } else {
+            return NO;
+        }
     
 }
 
