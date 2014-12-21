@@ -236,9 +236,14 @@
 
 
 - (BOOL)evenlySpaced:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c {
+    NSInteger smallGap = b-a;
+    NSInteger largeGap = c-b;
     
-    
-    return YES;
+    if(smallGap == largeGap){
+        return YES;
+    } else {
+        return NO;
+    }
     
 }
 

@@ -239,8 +239,6 @@
     XCTAssert(result == 3);
 }
 
-
-
 - (void)testCommonTwoReturns2GivenArrayWith2SameCharacters {
     NSArray* arrA = [[NSArray alloc]initWithObjects:@"a",@"c",@"x", nil];
     NSArray* arrB = [[NSArray alloc]initWithObjects:@"b",@"c",@"d",@"x", nil];
@@ -250,15 +248,15 @@
 
 - (void)testEvenlySpacedReturns_True_Given_int_2_4_6 {
     XCTAssertTrue([self.testObj evenlySpaced:2 withB:4 withC:6]);
-    
 }
 
 - (void)testEvenlySpacedReturns_False_Given_int_1_4_6 {
     XCTAssertFalse([self.testObj evenlySpaced:1 withB:4 withC:6]);
-    
 }
 
-
+- (void)testEvenlySpacedReturns_True_Given_int_1_4_6 {
+    XCTAssertTrue([self.testObj evenlySpaced:4 withB:6 withC:2]);
+}
 
 
 
