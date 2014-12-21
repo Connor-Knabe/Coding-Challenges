@@ -253,6 +253,12 @@
     
 }
 
+- (void)testEvenlySpacedReturns_False_Given_int_1_4_6 {
+    XCTAssertFalse([self.testObj evenlySpaced:1 withB:4 withC:6]);
+    
+}
+
+
 
 
 
