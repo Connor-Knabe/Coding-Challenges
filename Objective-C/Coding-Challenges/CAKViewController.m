@@ -238,7 +238,7 @@
 - (BOOL)evenlySpaced:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c {
     
     
-    return NO;
+    return YES;
     
 }
 
