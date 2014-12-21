@@ -254,7 +254,7 @@
     XCTAssertFalse([self.testObj evenlySpaced:1 withB:4 withC:6]);
 }
 
-- (void)testEvenlySpacedReturns_True_Given_int_1_4_6 {
+- (void)testEvenlySpacedReturns_True_Given_int_4_6_2 {
     XCTAssertTrue([self.testObj evenlySpaced:4 withB:6 withC:2]);
 }
 
