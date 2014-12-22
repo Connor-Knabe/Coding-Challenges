@@ -253,6 +253,12 @@
 }
 
 
+- (NSArray*)frontEleven:(NSArray*)arrA withB:(NSArray*)arrB {
+    
+    return @[@0];
+}
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }

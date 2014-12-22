@@ -22,6 +22,7 @@
 - (BOOL)scores100:(NSArray*)scores;
 - (NSInteger)commonTwo:(NSArray*)a withBArray:(NSArray*)b;
 - (BOOL)evenlySpaced:(NSInteger)a withB:(NSInteger)b withC:(NSInteger)c;
+- (NSArray*)frontEleven:(NSArray*)arrA withB:(NSArray*)arrB;
 
 @end
 
