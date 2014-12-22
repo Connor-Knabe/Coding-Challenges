@@ -255,7 +255,7 @@
 
 - (NSArray*)frontEleven:(NSArray*)arrA withB:(NSArray*)arrB {
     
-    return @[@0];
+    return @[@1,@7];
 }
 
 
