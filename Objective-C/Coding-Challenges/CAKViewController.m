@@ -255,7 +255,8 @@
 
 - (NSArray*)frontEleven:(NSArray*)arrA withB:(NSArray*)arrB {
     
-    return @[@1,@7];
+    NSArray* solnArr = [[NSArray alloc]initWithObjects:[arrA objectAtIndex:0],[arrB objectAtIndex:0], nil];
+    return solnArr;
 }
 
 
