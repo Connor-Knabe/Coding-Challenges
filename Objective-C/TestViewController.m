@@ -268,7 +268,13 @@
     NSArray* arrB = [[NSArray alloc]initWithObjects:@7,@8,@9, nil];
     NSArray* arrSoln = [[NSArray alloc]initWithObjects:@1,@7, nil];
     XCTAssertEqualObjects([self.testObj frontEleven:arrA withB:arrB], arrSoln);
-    
+}
+
+- (void)testfrontElevenReturns1_2_Given_int_1_2_3_and_2_9_8 {
+    NSArray* arrA = [[NSArray alloc]initWithObjects:@1,@2,@3, nil];
+    NSArray* arrB = [[NSArray alloc]initWithObjects:@2,@8,@9, nil];
+    NSArray* arrSoln = [[NSArray alloc]initWithObjects:@1,@2, nil];
+    XCTAssertEqualObjects([self.testObj frontEleven:arrA withB:arrB], arrSoln);
 }
 
 
