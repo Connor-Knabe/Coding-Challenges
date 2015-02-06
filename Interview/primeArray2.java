@@ -1,4 +1,4 @@
-public class primeArray {
+public class primeArray2 {
     public static void main(String[] args) {
 
         int[] primes = new int[100];
