@@ -21,7 +21,7 @@ func isPrime(num: Int)->Bool{
 }
 
 
-for(var i = 1; maxIndex < 100; i += 2){
+for(var i = 2; maxIndex < 100; i += 1){
     if(isPrime(i)){
         array.append(i)
         maxIndex++
